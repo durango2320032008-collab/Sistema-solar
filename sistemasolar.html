@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Planetas del sistema solar</title>
+    <style>
+        body {
+            background-image: url('img/star.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: Verdana, sans-serif;
+        }
+
+        .logo {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 180px;
+            height: 180px;
+        }
+
+        /* Contenedor para colocar el texto y el video lado a lado */
+        .contenido-principal {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+
+        .texto-info {
+            flex: 1;
+        }
+
+        /* Estilos de colores solicitados */
+        h2 {
+            color: #ffffff; /* Blanco para subtítulos */
+        }
+
+        p, li {
+            color: #ffd6e8; /* Rosa claro para el texto */
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body bgcolor="#FFFDFC">
+
+    <!-- Enlace y logo -->
+    <a href="mailto:pazmedina279@gmail.com">
+        <img src="img/logo.jpg" alt="Logo" class="logo">
+    </a>
+
+    <!-- Título principal -->
+    <p style="font-size: 50px; color: white; font-weight: bold;">SISTEMA SOLAR</p>
+
+    <!-- Fecha -->
+    <p align="right">
+        <h2 id="fecha" style="color:white; font-size: 16px;"></h2>
+        <script>
+            function mostrarFecha() {
+                const hoy = new Date();
+                document.getElementById("fecha").textContent = hoy.toLocaleDateString('es-MX');
+            }
+            mostrarFecha();
+        </script>
+    </p>
+
+   <hr align="center" width="100%" size="10" noshade>
+
+<center>
+<font size=3>
+<table border="2" bordercolor="white" CELLSPACING=0 CELLPADDING=10 bgcolor="#E347ED">
+<tr>
+<td align=right>
+<font size=3><strong><center>
+<a href="index.html">Inicio </a>
+</center> </font>
+</td>
+
+<td align=right>
+
+<font size=3><strong><center>
+<a href="sistemasolar.html">Sistema solar
+
+</a></center>
+
+</font>
+</td>
+
+<td align=right>
+
+<font size=3><strong><center>
+<a href="planetas.html">
+Planetas del sistema solr </a> </center>
+
+</font>
+</td>
+<td align=right>
+<font size=3><strong><center>
+<a href="caracteristicas.html">
+Características etc.</a></center>
+</font>
+</td>
+
+<td align=right>
+      <font size=3><strong><center>
+        <a href="contacto.html">Acerca de mí</a>
+      </center></font>
+    </td>
+
+</font> </td>
+</tr>
+</table>
+</font>
+</center>
+
+    <hr align="center" width="100%" size="5" noshade>
+    <br>
+
+    <!-- Contenedor con texto y video lado a lado -->
+    <div class="contenido-principal">
+        <div class="texto-info">
+            <h2>¿Qué es el Sistema Solar?</h2>
+            <p>
+                El sistema solar es el conjunto de ocho planetas y otros cuerpos celestes que orbitan alrededor del Sol. También forman parte de él asteroides, cometas, satélites naturales y planetas enanos.
+            </p>
+
+            <h2>Planetas del Sistema Solar</h2>
+            <ol>
+                <li>Mercurio</li>
+                <li>Venus</li>
+                <li>Tierra</li>
+                <li>Marte</li>
+                <li>Júpiter</li>
+                <li>Saturno</li>
+                <li>Urano</li>
+                <li>Neptuno</li>
+            </ol>
+
+            <h2>Otros cuerpos celestes</h2>
+            <p>
+                Además de los planetas, el sistema solar incluye el cinturón de asteroides situado entre Marte y Júpiter y diversos objetos transneptunianos que se encuentran más allá de Neptuno.
+            </p>
+
+            <h2>El Sol</h2>
+            <p>
+                En el centro del sistema solar se encuentra el Sol, que tiene un diámetro aproximado de 1,400,000 kilómetros y representa más del 99 % de la masa total del sistema solar. Su fuerza gravitatoria mantiene a todos los cuerpos celestes orbitando a su alrededor.
+            </p>
+
+            <h2>Ubicación</h2>
+            <p>
+                El sistema solar se encuentra en la Vía Láctea, específicamente en el Brazo de Orión, a una distancia aproximada de 27,000 años luz del centro galáctico.
+            </p>
+
+            <h2>¿Cómo se originó?</h2>
+            <p>
+                El sistema solar se originó hace aproximadamente 4,600 millones de años a partir de una enorme nube de gas y polvo compuesta principalmente por hidrógeno y helio.
+            </p>
+            <p>
+                La gravedad provocó el colapso de esta nube, formando un disco en rotación alrededor de un núcleo central que posteriormente se convirtió en el Sol.
+            </p>
+            <p>
+                Con el paso del tiempo, el material restante se agrupó para formar los planetas, satélites naturales, asteroides, cometas y otros cuerpos celestes que actualmente conforman el sistema solar.
+            </p>
+        </div>
+
+        <!-- Video más grande -->
+        <video width="800" height="580" controls>
+            <source src="media/video.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
+
+    <br><br>
+    <hr width="100%" size="2">
+
+    <!-- Pie de página -->
+    <hr align="center" width="100%" size="2" noshade>
+<p align="left">
+<font color="#FFFDFC" size="2" face="Verdana">
+<i>
+&copy; 2026. Derechos reservados. <br>
+Elaborado por: PAZ GARAY MEDINA
+Matrícula: 2320032008
+Grupo:6101<br>
+Plantel:CEMSAD DURANGO
+</i>
+</font>
+</p>
+</Body>
+</html>
