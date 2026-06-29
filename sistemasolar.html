@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Planetas del sistema solar</title>
+<title> Sistema solar </title>
+</head>
+<Body bgcolor = "#FFFDFC">
+<p style="font-size: 50px; color: white; font-weight: bold; font-family: 'Times New Roman', Times, serif;">SISTEMA SOLAR</p>
+</font>
+<head>
+    <title>Sistema Solar</title>
+
     <style>
         body {
             background-image: url('img/star.jpg');
@@ -52,66 +58,48 @@
         <img src="img/logo.jpg" alt="Logo" class="logo">
     </a>
 
-    <!-- Título principal -->
-    <p style="font-size: 50px; color: white; font-weight: bold;">SISTEMA SOLAR</p>
+ <h2 id="fecha" style="color: white; font-family: 'Times New Roman', serif; font-size: 24px; font-weight: bold;">
+</h2>
+    <script>
+        function mostrarFecha() {
+            const hoy = new Date();
+            document.getElementById("fecha").textContent =
+                hoy.toLocaleDateString('es-MX');
+        }
 
-    <!-- Fecha -->
-    <p align="right">
-        <h2 id="fecha" style="color:white; font-size: 16px;"></h2>
-        <script>
-            function mostrarFecha() {
-                const hoy = new Date();
-                document.getElementById("fecha").textContent = hoy.toLocaleDateString('es-MX');
-            }
-            mostrarFecha();
-        </script>
-    </p>
+        mostrarFecha();
+    </script>
+</font>
+</p>
 
-   <hr align="center" width="100%" size="10" noshade>
-
+   </font>
+</p>
+<hr align="center" width="100%" size="10" noshade>
 <center>
 <font size=3>
-<table border="2" bordercolor="white" CELLSPACING=0 CELLPADDING=10 bgcolor="#E347ED">
-<tr>
-<td align=right>
-<font size=3><strong><center>
-<a href="index.html">Inicio </a>
-</center> </font>
+<table border="2" bordercolor="white" cellspacing="0" cellpadding="10" bgcolor="#E347ED" style="font-size:12px;">
+<td align="center">
+<strong><a href="index.html">Inicio</a></strong>
 </td>
 
-<td align=right>
-
-<font size=3><strong><center>
-<a href="sistemasolar.html">Sistema solar
-
-</a></center>
-
-</font>
+<td align="center">
+<strong><a href="sistemasolar.html">Sistema solar</a></strong>
 </td>
 
-<td align=right>
-
-<font size=3><strong><center>
-<a href="planetas.html">
-Planetas del sistema solr </a> </center>
-
-</font>
-</td>
-<td align=right>
-<font size=3><strong><center>
-<a href="caracteristicas.html">
-Características etc.</a></center>
-</font>
+<td align="center">
+<strong><a href="planetas.html">Planetas del sistema solar</a></strong>
 </td>
 
-<td align=right>
-      <font size=3><strong><center>
-        <a href="contacto.html">Acerca de mí</a>
-      </center></font>
-    </td>
+<td align="center">
+<strong><a href="caracteristicas.html">Características etc.</a></strong>
+</td>
 
-</font> </td>
+<td align="center">
+<strong><a href="contacto.html">Acerca de mí</a></strong>
+</td>
+
 </tr>
+
 </table>
 </font>
 </center>
